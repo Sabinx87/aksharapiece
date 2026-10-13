@@ -103,13 +103,17 @@ python scripts/make_figures.py --out paper/figures
 
 ## Citation
 
+The paper is not published yet. Until it is, please cite this repository; we will replace this entry with the
+paper's details once it appears.
+
 ```bibtex
 @misc{bhattarai2026aksharapiece,
-  title  = {Keeping Syllables Whole Is Not Enough: Akshara-Aware Tokenization, Corpus Typos,
-            and Script-Aware Decoding for Nepali Language Models},
-  author = {Bhattarai, Sabin and Aadhikari, Nabin},
-  year   = {2026},
-  url    = {https://github.com/Sabinx87/aksharapiece}
+  title        = {Keeping Syllables Whole Is Not Enough: Akshara-Aware Tokenization, Corpus Typos,
+                  and Script-Aware Decoding for Nepali Language Models},
+  author       = {Bhattarai, Sabin and Aadhikari, Nabin},
+  year         = {2026},
+  howpublished = {\url{https://github.com/Sabinx87/aksharapiece}},
+  note         = {Code, tokenizers and models. Paper manuscript in preparation}
 }
 ```
 

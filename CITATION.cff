@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this code, the tokenizers or the models, please cite the paper."
+message: "The paper is not published yet. If you use this code, the tokenizers or the models, please cite this repository."
 title: "AksharaPiece: syllable-aware tokenization for Nepali"
 authors:
   - family-names: Bhattarai
@@ -11,7 +11,7 @@ authors:
 license: Apache-2.0
 repository-code: "https://github.com/Sabinx87/aksharapiece"
 preferred-citation:
-  type: article
+  type: unpublished
   title: "Keeping Syllables Whole Is Not Enough: Akshara-Aware Tokenization, Corpus Typos, and Script-Aware Decoding for Nepali Language Models"
   authors:
     - family-names: Bhattarai
@@ -19,3 +19,4 @@ preferred-citation:
     - family-names: Aadhikari
       given-names: Nabin
   year: 2026
+  notes: "Manuscript in preparation. Code, tokenizers and models: https://github.com/Sabinx87/aksharapiece"
