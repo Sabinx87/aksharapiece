@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code, the tokenizers or the models, please cite the paper."
+title: "AksharaPiece: syllable-aware tokenization for Nepali"
+authors:
+  - family-names: Bhattarai
+    given-names: Sabin
+    affiliation: "Pashchimanchal Campus, Institute of Engineering, Tribhuvan University"
+  - family-names: Aadhikari
+    given-names: Nabin
+    affiliation: "Birendra Multiple Campus, Institute of Science and Technology, Tribhuvan University"
+license: Apache-2.0
+repository-code: "https://github.com/Sabinx87/aksharapiece"
+preferred-citation:
+  type: article
+  title: "Keeping Syllables Whole Is Not Enough: Akshara-Aware Tokenization, Corpus Typos, and Script-Aware Decoding for Nepali Language Models"
+  authors:
+    - family-names: Bhattarai
+      given-names: Sabin
+    - family-names: Aadhikari
+      given-names: Nabin
+  year: 2026

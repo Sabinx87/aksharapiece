@@ -10,8 +10,8 @@ from its consonant. **AksharaPiece** is a BPE tokenizer that never does this. We
 matched conditions (same 600 MB of IndicCorp v2 text, same vocabulary, a Llama-style Transformer and Mamba-2,
 three seeds each) and asked whether keeping syllables whole gives better Nepali language models.
 
-**Models and tokenizers:** [huggingface.co/USERNAME/aksharapiece-nepali](https://huggingface.co/USERNAME/aksharapiece-nepali)
-**Generated samples and scores:** [huggingface.co/datasets/USERNAME/aksharapiece-nepali-eval](https://huggingface.co/datasets/USERNAME/aksharapiece-nepali-eval)
+**Models and tokenizers:** [huggingface.co/Sabinx877/aksharapiece-nepali](https://huggingface.co/Sabinx877/aksharapiece-nepali)
+**Generated samples and scores:** [huggingface.co/datasets/Sabinx877/aksharapiece-nepali-eval](https://huggingface.co/datasets/Sabinx877/aksharapiece-nepali-eval)
 
 ## Main findings
 
@@ -33,7 +33,7 @@ three seeds each) and asked whether keeping syllables whole gives better Nepali 
 ## Quick start
 
 ```bash
-git clone https://github.com/USERNAME/aksharapiece && cd aksharapiece
+git clone https://github.com/Sabinx87/aksharapiece && cd aksharapiece
 pip install -r requirements.txt
 PYTHONPATH=. pytest -q tests          # 50 tests
 ```
@@ -56,7 +56,7 @@ Generate text with a trained model (downloads from Hugging Face):
 ```python
 import sys
 from huggingface_hub import snapshot_download
-root = snapshot_download("USERNAME/aksharapiece-nepali")
+root = snapshot_download("Sabinx877/aksharapiece-nepali")
 sys.path.insert(0, root + "/code")
 from example import load, complete
 model, codec = load("akshara_bpe_16k__transformer__s1", root=root)
@@ -100,6 +100,18 @@ python scripts/make_figures.py --out paper/figures
 | `notebooks/` | The Kaggle notebooks that produced every result |
 | `results/` | All result tables, run summaries and logs (samples and per-line scores are on Hugging Face) |
 | `paper/` | LaTeX source (`main.tex`, `references.bib`) and figures |
+
+## Citation
+
+```bibtex
+@misc{bhattarai2026aksharapiece,
+  title  = {Keeping Syllables Whole Is Not Enough: Akshara-Aware Tokenization, Corpus Typos,
+            and Script-Aware Decoding for Nepali Language Models},
+  author = {Bhattarai, Sabin and Aadhikari, Nabin},
+  year   = {2026},
+  url    = {https://github.com/Sabinx87/aksharapiece}
+}
+```
 
 ## License
 
