@@ -1,0 +1,591 @@
+{
+  "rows": [
+    {
+      "model": "human-written reference",
+      "tokenizer": "-",
+      "arch": "-",
+      "seed": "-",
+      "decoding": "-",
+      "aksharas": 512377,
+      "words": 167901,
+      "malformed": 156,
+      "malformed_words": 155,
+      "malformed_per_1000": 0.30446331509806257,
+      "malformed_words_%": 0.09231630544189731,
+      "nonword_%": 4.235233858047302,
+      "avg_words": 33.5802
+    },
+    {
+      "model": "akshara_bpe_16k__mamba__s1",
+      "tokenizer": "akshara_bpe_16k",
+      "arch": "mamba",
+      "seed": "s1",
+      "decoding": "free",
+      "aksharas": 109886,
+      "words": 39858,
+      "malformed": 22,
+      "malformed_words": 20,
+      "malformed_per_1000": 0.2002074877600422,
+      "malformed_words_%": 0.05017813236991319,
+      "nonword_%": 3.9916704300265944,
+      "avg_words": 13.286,
+      "minutes": 8.454744990666708
+    },
+    {
+      "model": "akshara_bpe_16k__mamba__s2",
+      "tokenizer": "akshara_bpe_16k",
+      "arch": "mamba",
+      "seed": "s2",
+      "decoding": "free",
+      "aksharas": 98401,
+      "words": 35870,
+      "malformed": 19,
+      "malformed_words": 19,
+      "malformed_per_1000": 0.19308746862328635,
+      "malformed_words_%": 0.05296905492054642,
+      "nonword_%": 4.332311123501533,
+      "avg_words": 11.956666666666667,
+      "minutes": 7.726867453257243
+    },
+    {
+      "model": "akshara_bpe_16k__transformer__s1",
+      "tokenizer": "akshara_bpe_16k",
+      "arch": "transformer",
+      "seed": "s1",
+      "decoding": "free",
+      "aksharas": 109142,
+      "words": 39993,
+      "malformed": 37,
+      "malformed_words": 33,
+      "malformed_per_1000": 0.3390078979677851,
+      "malformed_words_%": 0.08251444002700473,
+      "nonword_%": 4.320756132323156,
+      "avg_words": 13.331,
+      "minutes": 1.4661694526672364
+    },
+    {
+      "model": "akshara_bpe_16k__transformer__s2",
+      "tokenizer": "akshara_bpe_16k",
+      "arch": "transformer",
+      "seed": "s2",
+      "decoding": "free",
+      "aksharas": 107921,
+      "words": 39782,
+      "malformed": 24,
+      "malformed_words": 18,
+      "malformed_per_1000": 0.2223848926529591,
+      "malformed_words_%": 0.04524659393695641,
+      "nonword_%": 4.270775727716052,
+      "avg_words": 13.260666666666667,
+      "minutes": 1.4392182588577271
+    },
+    {
+      "model": "plain_bpe_16k__mamba__s1",
+      "tokenizer": "plain_bpe_16k",
+      "arch": "mamba",
+      "seed": "s1",
+      "decoding": "free",
+      "aksharas": 96311,
+      "words": 35552,
+      "malformed": 19,
+      "malformed_words": 19,
+      "malformed_per_1000": 0.19727756954034326,
+      "malformed_words_%": 0.05344284428442844,
+      "nonword_%": 4.084158415841584,
+      "avg_words": 11.850666666666667,
+      "minutes": 7.793487167358398
+    },
+    {
+      "model": "plain_bpe_16k__mamba__s2",
+      "tokenizer": "plain_bpe_16k",
+      "arch": "mamba",
+      "seed": "s2",
+      "decoding": "free",
+      "aksharas": 107661,
+      "words": 39123,
+      "malformed": 21,
+      "malformed_words": 19,
+      "malformed_per_1000": 0.19505670577089196,
+      "malformed_words_%": 0.04856478286429977,
+      "nonword_%": 3.977200112465813,
+      "avg_words": 13.041,
+      "minutes": 7.871825496355693
+    },
+    {
+      "model": "plain_bpe_16k__transformer__s1",
+      "tokenizer": "plain_bpe_16k",
+      "arch": "transformer",
+      "seed": "s1",
+      "decoding": "free",
+      "aksharas": 107659,
+      "words": 40050,
+      "malformed": 9,
+      "malformed_words": 9,
+      "malformed_per_1000": 0.08359728401712815,
+      "malformed_words_%": 0.02247191011235955,
+      "nonword_%": 4.312109862671661,
+      "avg_words": 13.35,
+      "minutes": 1.440751584370931
+    },
+    {
+      "model": "plain_bpe_16k__transformer__s2",
+      "tokenizer": "plain_bpe_16k",
+      "arch": "transformer",
+      "seed": "s2",
+      "decoding": "free",
+      "aksharas": 108531,
+      "words": 40083,
+      "malformed": 17,
+      "malformed_words": 16,
+      "malformed_per_1000": 0.15663727414287162,
+      "malformed_words_%": 0.039917171868373125,
+      "nonword_%": 3.996706833320859,
+      "avg_words": 13.361,
+      "minutes": 1.4391677896181743
+    },
+    {
+      "model": "akshara_bpe_16k__mamba__s1+constrained",
+      "tokenizer": "akshara_bpe_16k",
+      "arch": "mamba",
+      "seed": "s1",
+      "decoding": "constrained",
+      "aksharas": 109743,
+      "words": 39876,
+      "malformed": 0,
+      "malformed_words": 0,
+      "malformed_per_1000": 0.0,
+      "malformed_words_%": 0.0,
+      "nonword_%": 3.8419099207543383,
+      "avg_words": 13.292,
+      "minutes": 8.293347366650899
+    },
+    {
+      "model": "akshara_bpe_16k__mamba__s2+constrained",
+      "tokenizer": "akshara_bpe_16k",
+      "arch": "mamba",
+      "seed": "s2",
+      "decoding": "constrained",
+      "aksharas": 99482,
+      "words": 36395,
+      "malformed": 0,
+      "malformed_words": 0,
+      "malformed_per_1000": 0.0,
+      "malformed_words_%": 0.0,
+      "nonword_%": 4.239593350734991,
+      "avg_words": 12.131666666666666,
+      "minutes": 7.582514178752899
+    },
+    {
+      "model": "akshara_bpe_16k__transformer__s1+constrained",
+      "tokenizer": "akshara_bpe_16k",
+      "arch": "transformer",
+      "seed": "s1",
+      "decoding": "constrained",
+      "aksharas": 109192,
+      "words": 40057,
+      "malformed": 0,
+      "malformed_words": 0,
+      "malformed_per_1000": 0.0,
+      "malformed_words_%": 0.0,
+      "nonword_%": 4.286391891554535,
+      "avg_words": 13.352333333333334,
+      "minutes": 1.3736290176709494
+    },
+    {
+      "model": "akshara_bpe_16k__transformer__s2+constrained",
+      "tokenizer": "akshara_bpe_16k",
+      "arch": "transformer",
+      "seed": "s2",
+      "decoding": "constrained",
+      "aksharas": 107532,
+      "words": 39598,
+      "malformed": 0,
+      "malformed_words": 0,
+      "malformed_per_1000": 0.0,
+      "malformed_words_%": 0.0,
+      "nonword_%": 4.199707055911915,
+      "avg_words": 13.199333333333334,
+      "minutes": 1.3525848865509034
+    },
+    {
+      "model": "plain_bpe_16k__mamba__s1+constrained",
+      "tokenizer": "plain_bpe_16k",
+      "arch": "mamba",
+      "seed": "s1",
+      "decoding": "constrained",
+      "aksharas": 97733,
+      "words": 36062,
+      "malformed": 0,
+      "malformed_words": 0,
+      "malformed_per_1000": 0.0,
+      "malformed_words_%": 0.0,
+      "nonword_%": 3.984803948754922,
+      "avg_words": 12.020666666666667,
+      "minutes": 7.470760830243429
+    },
+    {
+      "model": "plain_bpe_16k__mamba__s2+constrained",
+      "tokenizer": "plain_bpe_16k",
+      "arch": "mamba",
+      "seed": "s2",
+      "decoding": "constrained",
+      "aksharas": 107999,
+      "words": 39340,
+      "malformed": 0,
+      "malformed_words": 0,
+      "malformed_per_1000": 0.0,
+      "malformed_words_%": 0.0,
+      "nonword_%": 3.6985256736146415,
+      "avg_words": 13.113333333333333,
+      "minutes": 7.640851438045502
+    },
+    {
+      "model": "plain_bpe_16k__transformer__s1+constrained",
+      "tokenizer": "plain_bpe_16k",
+      "arch": "transformer",
+      "seed": "s1",
+      "decoding": "constrained",
+      "aksharas": 107442,
+      "words": 40091,
+      "malformed": 0,
+      "malformed_words": 0,
+      "malformed_per_1000": 0.0,
+      "malformed_words_%": 0.0,
+      "nonword_%": 4.350103514504502,
+      "avg_words": 13.363666666666667,
+      "minutes": 1.3590245525042215
+    },
+    {
+      "model": "plain_bpe_16k__transformer__s2+constrained",
+      "tokenizer": "plain_bpe_16k",
+      "arch": "transformer",
+      "seed": "s2",
+      "decoding": "constrained",
+      "aksharas": 108347,
+      "words": 39873,
+      "malformed": 0,
+      "malformed_words": 0,
+      "malformed_per_1000": 0.0,
+      "malformed_words_%": 0.0,
+      "nonword_%": 4.133122664459659,
+      "avg_words": 13.291,
+      "minutes": 1.3589805841445923
+    }
+  ],
+  "pooled": {
+    "akshara_bpe_16k|mamba|free": {
+      "malformed": 41,
+      "aksharas": 208287,
+      "malformed_words": 39,
+      "words": 75728,
+      "nonword_w": 3145.0,
+      "models": 2
+    },
+    "akshara_bpe_16k|all|free": {
+      "malformed": 102,
+      "aksharas": 425350,
+      "malformed_words": 90,
+      "words": 155503,
+      "nonword_w": 6572.0,
+      "models": 4
+    },
+    "akshara_bpe_16k|transformer|free": {
+      "malformed": 61,
+      "aksharas": 217063,
+      "malformed_words": 51,
+      "words": 79775,
+      "nonword_w": 3427.0,
+      "models": 2
+    },
+    "plain_bpe_16k|mamba|free": {
+      "malformed": 40,
+      "aksharas": 203972,
+      "malformed_words": 38,
+      "words": 74675,
+      "nonword_w": 3008.0,
+      "models": 2
+    },
+    "plain_bpe_16k|all|free": {
+      "malformed": 66,
+      "aksharas": 420162,
+      "malformed_words": 63,
+      "words": 154808,
+      "nonword_w": 6337.0,
+      "models": 4
+    },
+    "plain_bpe_16k|transformer|free": {
+      "malformed": 26,
+      "aksharas": 216190,
+      "malformed_words": 25,
+      "words": 80133,
+      "nonword_w": 3329.0,
+      "models": 2
+    },
+    "akshara_bpe_16k|mamba|constrained": {
+      "malformed": 0,
+      "aksharas": 209225,
+      "malformed_words": 0,
+      "words": 76271,
+      "nonword_w": 3075.0,
+      "models": 2
+    },
+    "akshara_bpe_16k|all|constrained": {
+      "malformed": 0,
+      "aksharas": 425949,
+      "malformed_words": 0,
+      "words": 155926,
+      "nonword_w": 6455.0,
+      "models": 4
+    },
+    "akshara_bpe_16k|transformer|constrained": {
+      "malformed": 0,
+      "aksharas": 216724,
+      "malformed_words": 0,
+      "words": 79655,
+      "nonword_w": 3380.0,
+      "models": 2
+    },
+    "plain_bpe_16k|mamba|constrained": {
+      "malformed": 0,
+      "aksharas": 205732,
+      "malformed_words": 0,
+      "words": 75402,
+      "nonword_w": 2892.0,
+      "models": 2
+    },
+    "plain_bpe_16k|all|constrained": {
+      "malformed": 0,
+      "aksharas": 421521,
+      "malformed_words": 0,
+      "words": 155366,
+      "nonword_w": 6284.0,
+      "models": 4
+    },
+    "plain_bpe_16k|transformer|constrained": {
+      "malformed": 0,
+      "aksharas": 215789,
+      "malformed_words": 0,
+      "words": 79964,
+      "nonword_w": 3392.0,
+      "models": 2
+    }
+  },
+  "tests": [
+    {
+      "comparison": "plain vs AksharaPiece (free decoding)",
+      "arch": "mamba",
+      "a": [
+        "plain_bpe_16k",
+        "mamba",
+        "free"
+      ],
+      "b": [
+        "akshara_bpe_16k",
+        "mamba",
+        "free"
+      ],
+      "count_a": 40,
+      "count_b": 41,
+      "rate_ratio": 0.996248648188441,
+      "p": 0.9999999999999843
+    },
+    {
+      "comparison": "plain vs AksharaPiece (constrained)",
+      "arch": "mamba",
+      "a": [
+        "plain_bpe_16k",
+        "mamba",
+        "constrained"
+      ],
+      "b": [
+        "akshara_bpe_16k",
+        "mamba",
+        "constrained"
+      ],
+      "count_a": 0,
+      "count_b": 0,
+      "rate_ratio": NaN,
+      "p": 1.0
+    },
+    {
+      "comparison": "plain: free vs constrained",
+      "arch": "mamba",
+      "a": [
+        "plain_bpe_16k",
+        "mamba",
+        "free"
+      ],
+      "b": [
+        "plain_bpe_16k",
+        "mamba",
+        "constrained"
+      ],
+      "count_a": 40,
+      "count_b": 0,
+      "rate_ratio": NaN,
+      "p": 7.656213037189735e-13
+    },
+    {
+      "comparison": "AksharaPiece: free vs constrained",
+      "arch": "mamba",
+      "a": [
+        "akshara_bpe_16k",
+        "mamba",
+        "free"
+      ],
+      "b": [
+        "akshara_bpe_16k",
+        "mamba",
+        "constrained"
+      ],
+      "count_a": 41,
+      "count_b": 0,
+      "rate_ratio": NaN,
+      "p": 4.146878391987449e-13
+    },
+    {
+      "comparison": "plain vs AksharaPiece (free decoding)",
+      "arch": "transformer",
+      "a": [
+        "plain_bpe_16k",
+        "transformer",
+        "free"
+      ],
+      "b": [
+        "akshara_bpe_16k",
+        "transformer",
+        "free"
+      ],
+      "count_a": 26,
+      "count_b": 61,
+      "rate_ratio": 0.4279506718058417,
+      "p": 0.00022424985347608355
+    },
+    {
+      "comparison": "plain vs AksharaPiece (constrained)",
+      "arch": "transformer",
+      "a": [
+        "plain_bpe_16k",
+        "transformer",
+        "constrained"
+      ],
+      "b": [
+        "akshara_bpe_16k",
+        "transformer",
+        "constrained"
+      ],
+      "count_a": 0,
+      "count_b": 0,
+      "rate_ratio": NaN,
+      "p": 1.0
+    },
+    {
+      "comparison": "plain: free vs constrained",
+      "arch": "transformer",
+      "a": [
+        "plain_bpe_16k",
+        "transformer",
+        "free"
+      ],
+      "b": [
+        "plain_bpe_16k",
+        "transformer",
+        "constrained"
+      ],
+      "count_a": 26,
+      "count_b": 0,
+      "rate_ratio": NaN,
+      "p": 2.9810669075312616e-08
+    },
+    {
+      "comparison": "AksharaPiece: free vs constrained",
+      "arch": "transformer",
+      "a": [
+        "akshara_bpe_16k",
+        "transformer",
+        "free"
+      ],
+      "b": [
+        "akshara_bpe_16k",
+        "transformer",
+        "constrained"
+      ],
+      "count_a": 61,
+      "count_b": 0,
+      "rate_ratio": NaN,
+      "p": 8.683312949196936e-19
+    },
+    {
+      "comparison": "plain vs AksharaPiece (free decoding)",
+      "arch": "all",
+      "a": [
+        "plain_bpe_16k",
+        "all",
+        "free"
+      ],
+      "b": [
+        "akshara_bpe_16k",
+        "all",
+        "free"
+      ],
+      "count_a": 66,
+      "count_b": 102,
+      "rate_ratio": 0.6550484588997465,
+      "p": 0.008514273669713824
+    },
+    {
+      "comparison": "plain vs AksharaPiece (constrained)",
+      "arch": "all",
+      "a": [
+        "plain_bpe_16k",
+        "all",
+        "constrained"
+      ],
+      "b": [
+        "akshara_bpe_16k",
+        "all",
+        "constrained"
+      ],
+      "count_a": 0,
+      "count_b": 0,
+      "rate_ratio": NaN,
+      "p": 1.0
+    },
+    {
+      "comparison": "plain: free vs constrained",
+      "arch": "all",
+      "a": [
+        "plain_bpe_16k",
+        "all",
+        "free"
+      ],
+      "b": [
+        "plain_bpe_16k",
+        "all",
+        "constrained"
+      ],
+      "count_a": 66,
+      "count_b": 0,
+      "rate_ratio": NaN,
+      "p": 1.2181541952210998e-20
+    },
+    {
+      "comparison": "AksharaPiece: free vs constrained",
+      "arch": "all",
+      "a": [
+        "akshara_bpe_16k",
+        "all",
+        "free"
+      ],
+      "b": [
+        "akshara_bpe_16k",
+        "all",
+        "constrained"
+      ],
+      "count_a": 102,
+      "count_b": 0,
+      "rate_ratio": NaN,
+      "p": 1.8355237917837736e-31
+    }
+  ]
+}

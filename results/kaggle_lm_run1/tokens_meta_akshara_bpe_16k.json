@@ -1,0 +1,14 @@
+{
+  "name": "akshara_bpe_16k",
+  "spec": "aksharapiece:data/tok/akshara_bpe_16k.aksharapiece.json",
+  "tokenizer_vocab": 16000,
+  "model_vocab": 16001,
+  "sep_id": 16000,
+  "train_tokens": 48758535,
+  "train_bytes": 600000006,
+  "val_tokens": 406527,
+  "val_bytes": 5000242,
+  "train_unk_rate": 3.630133678134505e-05,
+  "val_unk_rate": 2.2138750931672435e-05,
+  "bytes_per_token": 12.305538015036753
+}

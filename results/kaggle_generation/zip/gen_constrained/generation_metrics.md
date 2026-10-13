@@ -1,0 +1,30 @@
+| Model | Malformed | Aksharas | per 1000 | Words with malformed syllable | Non-words | Words per sample |
+|---|---|---|---|---|---|---|
+| human-written reference | 156 | 512,377 | 0.30 | 0.09% | 4.24% | 33.6 |
+| akshara_bpe_16k__mamba__s1+constrained | 0 | 109,743 | 0.00 | 0.00% | 3.84% | 13.3 |
+| akshara_bpe_16k__mamba__s2+constrained | 0 | 99,482 | 0.00 | 0.00% | 4.24% | 12.1 |
+| akshara_bpe_16k__transformer__s1+constrained | 0 | 109,192 | 0.00 | 0.00% | 4.29% | 13.4 |
+| akshara_bpe_16k__transformer__s2+constrained | 0 | 107,532 | 0.00 | 0.00% | 4.20% | 13.2 |
+| plain_bpe_16k__mamba__s1+constrained | 0 | 97,733 | 0.00 | 0.00% | 3.98% | 12.0 |
+| plain_bpe_16k__mamba__s2+constrained | 0 | 107,999 | 0.00 | 0.00% | 3.70% | 13.1 |
+| plain_bpe_16k__transformer__s1+constrained | 0 | 107,442 | 0.00 | 0.00% | 4.35% | 13.4 |
+| plain_bpe_16k__transformer__s2+constrained | 0 | 108,347 | 0.00 | 0.00% | 4.13% | 13.3 |
+
+**Pooled over seeds**
+
+| Tokenizer | Arch | Decoding | Models | Malformed / aksharas | per 1000 | Words with malformed syllable | Non-words |
+|---|---|---|---|---|---|---|---|
+| akshara_bpe_16k | all | constrained | 4 | 0 / 425,949 | 0.000 | 0.000% | 4.14% |
+| plain_bpe_16k | all | constrained | 4 | 0 / 421,521 | 0.000 | 0.000% | 4.04% |
+| akshara_bpe_16k | mamba | constrained | 2 | 0 / 209,225 | 0.000 | 0.000% | 4.03% |
+| plain_bpe_16k | mamba | constrained | 2 | 0 / 205,732 | 0.000 | 0.000% | 3.84% |
+| akshara_bpe_16k | transformer | constrained | 2 | 0 / 216,724 | 0.000 | 0.000% | 4.24% |
+| plain_bpe_16k | transformer | constrained | 2 | 0 / 215,789 | 0.000 | 0.000% | 4.24% |
+
+**Exact rate tests (malformed syllables)**
+
+| Comparison | Arch | Counts | Rate ratio | p-value |
+|---|---|---|---|---|
+| plain vs AksharaPiece (constrained) | mamba | 0 vs 0 | nan | 1 |
+| plain vs AksharaPiece (constrained) | transformer | 0 vs 0 | nan | 1 |
+| plain vs AksharaPiece (constrained) | all | 0 vs 0 | nan | 1 |

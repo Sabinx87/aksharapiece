@@ -1,0 +1,206 @@
+7.9s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.9s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.9s 3 0.00s - to python to disable frozen modules.
+7.9s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+8.5s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.5s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.5s 7 0.00s - to python to disable frozen modules.
+8.5s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+17.9s 9 PyTorch 2.11.0+cu128 | GPUs: ['Tesla T4', 'Tesla T4']
+17.9s 10 8 models in /kaggle/input/notebooks/mr98rs/aksharapiece-seeds/models:
+17.9s 11 akshara_bpe_16k__mamba__s1.pt 69 MB
+17.9s 12 akshara_bpe_16k__mamba__s2.pt 69 MB
+17.9s 13 akshara_bpe_16k__transformer__s1.pt 71 MB
+17.9s 14 akshara_bpe_16k__transformer__s2.pt 71 MB
+17.9s 15 plain_bpe_16k__mamba__s1.pt 69 MB
+17.9s 16 plain_bpe_16k__mamba__s2.pt 69 MB
+17.9s 17 plain_bpe_16k__transformer__s1.pt 71 MB
+17.9s 18 plain_bpe_16k__transformer__s2.pt 71 MB
+17.9s 19 tokenizers: ['akshara_bpe_16k.aksharapiece.json', 'plain_bpe_16k.json']
+17.9s 20 $ python -m pytest -q tests
+23.4s 21 ..................................................                       [100%]
+23.4s 22 50 passed in 3.85s
+28.0s 23 No HF_TOKEN secret: downloading without a token (may be slower).
+31.1s 24 200 MB in 3s
+32.4s 25 5 MB in 1s
+65.5s 26 word-list lines: 334324
+65.7s 27 reference lines: 5000
+65.8s 28 started free on GPU 0
+65.8s 29 started constrained on GPU 1
+65.8s 30 [  0.0 min] free:
+65.8s 31 [  0.0 min] constrained:
+185.8s 32 [  2.0 min] free: reference: malformed 0.30/1000, nonword 4.235233858047302
+185.8s 33 [  2.0 min] constrained: reference: malformed 0.30/1000, nonword 4.235233858047302
+305.8s 34 [  4.0 min] free: reference: malformed 0.30/1000, nonword 4.235233858047302
+305.8s 35 [  4.0 min] constrained: reference: malformed 0.30/1000, nonword 4.235233858047302
+425.8s 36 [  6.0 min] free: reference: malformed 0.30/1000, nonword 4.235233858047302
+425.8s 37 [  6.0 min] constrained: reference: malformed 0.30/1000, nonword 4.235233858047302
+545.8s 38 [  8.0 min] free: reference: malformed 0.30/1000, nonword 4.235233858047302
+545.8s 39 [  8.0 min] constrained: reference: malformed 0.30/1000, nonword 4.235233858047302
+665.8s 40 [ 10.0 min] free: akshara_bpe_16k__mamba__s1: malformed 22 in 109,886 aksharas (0.20/1000), nonword 3.99%  (8.5 min)
+665.8s 41 [ 10.0 min] constrained: akshara_bpe_16k__mamba__s1+constrained: malformed 0 in 109,743 aksharas (0.00/1000), nonword 3.84%  (8.3 min)
+785.8s 42 [ 12.0 min] free: akshara_bpe_16k__mamba__s1: malformed 22 in 109,886 aksharas (0.20/1000), nonword 3.99%  (8.5 min)
+785.8s 43 [ 12.0 min] constrained: akshara_bpe_16k__mamba__s1+constrained: malformed 0 in 109,743 aksharas (0.00/1000), nonword 3.84%  (8.3 min)
+905.8s 44 [ 14.0 min] free: akshara_bpe_16k__mamba__s1: malformed 22 in 109,886 aksharas (0.20/1000), nonword 3.99%  (8.5 min)
+905.8s 45 [ 14.0 min] constrained: akshara_bpe_16k__mamba__s1+constrained: malformed 0 in 109,743 aksharas (0.00/1000), nonword 3.84%  (8.3 min)
+1025.8s 46 [ 16.0 min] free: akshara_bpe_16k__mamba__s1: malformed 22 in 109,886 aksharas (0.20/1000), nonword 3.99%  (8.5 min)
+1025.8s 47 [ 16.0 min] constrained: akshara_bpe_16k__mamba__s1+constrained: malformed 0 in 109,743 aksharas (0.00/1000), nonword 3.84%  (8.3 min)
+1145.8s 48 [ 18.0 min] free: akshara_bpe_16k__transformer__s1: malformed 37 in 109,142 aksharas (0.34/1000), nonword 4.32%  (1.5 min)
+1145.8s 49 [ 18.0 min] constrained: akshara_bpe_16k__transformer__s1+constrained: malformed 0 in 109,192 aksharas (0.00/1000), nonword 4.29%  (1.4 min)
+1265.8s 50 [ 20.0 min] free: akshara_bpe_16k__transformer__s2: malformed 24 in 107,921 aksharas (0.22/1000), nonword 4.27%  (1.4 min)
+1265.8s 51 [ 20.0 min] constrained: akshara_bpe_16k__transformer__s2+constrained: malformed 0 in 107,532 aksharas (0.00/1000), nonword 4.2%  (1.4 min)
+1385.8s 52 [ 22.0 min] free: akshara_bpe_16k__transformer__s2: malformed 24 in 107,921 aksharas (0.22/1000), nonword 4.27%  (1.4 min)
+1385.8s 53 [ 22.0 min] constrained: akshara_bpe_16k__transformer__s2+constrained: malformed 0 in 107,532 aksharas (0.00/1000), nonword 4.2%  (1.4 min)
+1505.8s 54 [ 24.0 min] free: akshara_bpe_16k__transformer__s2: malformed 24 in 107,921 aksharas (0.22/1000), nonword 4.27%  (1.4 min)
+1505.8s 55 [ 24.0 min] constrained: akshara_bpe_16k__transformer__s2+constrained: malformed 0 in 107,532 aksharas (0.00/1000), nonword 4.2%  (1.4 min)
+1625.9s 56 [ 26.0 min] free: akshara_bpe_16k__transformer__s2: malformed 24 in 107,921 aksharas (0.22/1000), nonword 4.27%  (1.4 min)
+1625.9s 57 [ 26.0 min] constrained: akshara_bpe_16k__transformer__s2+constrained: malformed 0 in 107,532 aksharas (0.00/1000), nonword 4.2%  (1.4 min)
+1745.9s 58 [ 28.0 min] free: plain_bpe_16k__mamba__s1: malformed 19 in 96,311 aksharas (0.20/1000), nonword 4.08%  (7.8 min)
+1745.9s 59 [ 28.0 min] constrained: plain_bpe_16k__mamba__s1+constrained: malformed 0 in 97,733 aksharas (0.00/1000), nonword 3.98%  (7.5 min)
+1865.9s 60 [ 30.0 min] free: plain_bpe_16k__mamba__s1: malformed 19 in 96,311 aksharas (0.20/1000), nonword 4.08%  (7.8 min)
+1865.9s 61 [ 30.0 min] constrained: plain_bpe_16k__mamba__s1+constrained: malformed 0 in 97,733 aksharas (0.00/1000), nonword 3.98%  (7.5 min)
+1985.9s 62 [ 32.0 min] free: plain_bpe_16k__mamba__s1: malformed 19 in 96,311 aksharas (0.20/1000), nonword 4.08%  (7.8 min)
+1985.9s 63 [ 32.0 min] constrained: plain_bpe_16k__mamba__s1+constrained: malformed 0 in 97,733 aksharas (0.00/1000), nonword 3.98%  (7.5 min)
+2105.9s 64 [ 34.0 min] free: plain_bpe_16k__mamba__s1: malformed 19 in 96,311 aksharas (0.20/1000), nonword 4.08%  (7.8 min)
+2105.9s 65 [ 34.0 min] constrained: plain_bpe_16k__mamba__s1+constrained: malformed 0 in 97,733 aksharas (0.00/1000), nonword 3.98%  (7.5 min)
+2225.9s 66 [ 36.0 min] free: plain_bpe_16k__mamba__s2: malformed 21 in 107,661 aksharas (0.20/1000), nonword 3.98%  (7.9 min)
+2225.9s 67 [ 36.0 min] constrained: plain_bpe_16k__transformer__s1+constrained: malformed 0 in 107,442 aksharas (0.00/1000), nonword 4.35%  (1.4 min)
+2345.9s 68 [ 38.0 min] free: | plain vs AksharaPiece (free decoding) | all | 66 vs 102 | 0.66 | 0.0085 |
+2355.9s 69 
+2355.9s 70 ===== free: done =====
+2355.9s 71 3000 prompts, e.g. 'अथवा शोध समस्याबारे स्पष्ट हुन सकिरहेको'
+2355.9s 72 reference word list: 134,547 words seen >= 3 times
+2355.9s 73 reference: malformed 0.30/1000, nonword 4.235233858047302
+2355.9s 74 akshara_bpe_16k__mamba__s1: malformed 22 in 109,886 aksharas (0.20/1000), nonword 3.99%  (8.5 min)
+2355.9s 75 akshara_bpe_16k__mamba__s2: malformed 19 in 98,401 aksharas (0.19/1000), nonword 4.33%  (7.7 min)
+2355.9s 76 akshara_bpe_16k__transformer__s1: malformed 37 in 109,142 aksharas (0.34/1000), nonword 4.32%  (1.5 min)
+2355.9s 77 akshara_bpe_16k__transformer__s2: malformed 24 in 107,921 aksharas (0.22/1000), nonword 4.27%  (1.4 min)
+2355.9s 78 plain_bpe_16k__mamba__s1: malformed 19 in 96,311 aksharas (0.20/1000), nonword 4.08%  (7.8 min)
+2355.9s 79 plain_bpe_16k__mamba__s2: malformed 21 in 107,661 aksharas (0.20/1000), nonword 3.98%  (7.9 min)
+2355.9s 80 plain_bpe_16k__transformer__s1: malformed 9 in 107,659 aksharas (0.08/1000), nonword 4.31%  (1.4 min)
+2355.9s 81 plain_bpe_16k__transformer__s2: malformed 17 in 108,531 aksharas (0.16/1000), nonword 4.0%  (1.4 min)
+2355.9s 82 | Model | Malformed | Aksharas | per 1000 | Words with malformed syllable | Non-words | Words per sample |
+2355.9s 83 |---|---|---|---|---|---|---|
+2355.9s 84 | human-written reference | 156 | 512,377 | 0.30 | 0.09% | 4.24% | 33.6 |
+2355.9s 85 | akshara_bpe_16k__mamba__s1 | 22 | 109,886 | 0.20 | 0.05% | 3.99% | 13.3 |
+2355.9s 86 | akshara_bpe_16k__mamba__s2 | 19 | 98,401 | 0.19 | 0.05% | 4.33% | 12.0 |
+2355.9s 87 | akshara_bpe_16k__transformer__s1 | 37 | 109,142 | 0.34 | 0.08% | 4.32% | 13.3 |
+2355.9s 88 | akshara_bpe_16k__transformer__s2 | 24 | 107,921 | 0.22 | 0.05% | 4.27% | 13.3 |
+2355.9s 89 | plain_bpe_16k__mamba__s1 | 19 | 96,311 | 0.20 | 0.05% | 4.08% | 11.9 |
+2355.9s 90 | plain_bpe_16k__mamba__s2 | 21 | 107,661 | 0.20 | 0.05% | 3.98% | 13.0 |
+2355.9s 91 | plain_bpe_16k__transformer__s1 | 9 | 107,659 | 0.08 | 0.02% | 4.31% | 13.3 |
+2355.9s 92 | plain_bpe_16k__transformer__s2 | 17 | 108,531 | 0.16 | 0.04% | 4.00% | 13.4 |
+2355.9s 93 **Pooled over seeds**
+2355.9s 94 | Tokenizer | Arch | Decoding | Models | Malformed / aksharas | per 1000 | Words with malformed syllable | Non-words |
+2355.9s 95 |---|---|---|---|---|---|---|---|
+2355.9s 96 | akshara_bpe_16k | all | free | 4 | 102 / 425,350 | 0.240 | 0.058% | 4.23% |
+2355.9s 97 | plain_bpe_16k | all | free | 4 | 66 / 420,162 | 0.157 | 0.041% | 4.09% |
+2355.9s 98 | akshara_bpe_16k | mamba | free | 2 | 41 / 208,287 | 0.197 | 0.052% | 4.15% |
+2355.9s 99 | plain_bpe_16k | mamba | free | 2 | 40 / 203,972 | 0.196 | 0.051% | 4.03% |
+2355.9s 100 | akshara_bpe_16k | transformer | free | 2 | 61 / 217,063 | 0.281 | 0.064% | 4.30% |
+2355.9s 101 | plain_bpe_16k | transformer | free | 2 | 26 / 216,190 | 0.120 | 0.031% | 4.15% |
+2355.9s 102 **Exact rate tests (malformed syllables)**
+2355.9s 103 | Comparison | Arch | Counts | Rate ratio | p-value |
+2355.9s 104 |---|---|---|---|---|
+2355.9s 105 | plain vs AksharaPiece (free decoding) | mamba | 40 vs 41 | 1.00 | 1 |
+2355.9s 106 | plain vs AksharaPiece (free decoding) | transformer | 26 vs 61 | 0.43 | 0.00022 |
+2355.9s 107 | plain vs AksharaPiece (free decoding) | all | 66 vs 102 | 0.66 | 0.0085 |
+2355.9s 108 
+2355.9s 109 ===== constrained: done =====
+2355.9s 110 3000 prompts, e.g. 'अथवा शोध समस्याबारे स्पष्ट हुन सकिरहेको'
+2355.9s 111 reference word list: 134,547 words seen >= 3 times
+2355.9s 112 reference: malformed 0.30/1000, nonword 4.235233858047302
+2355.9s 113 akshara_bpe_16k__mamba__s1+constrained: malformed 0 in 109,743 aksharas (0.00/1000), nonword 3.84%  (8.3 min)
+2355.9s 114 akshara_bpe_16k__mamba__s2+constrained: malformed 0 in 99,482 aksharas (0.00/1000), nonword 4.24%  (7.6 min)
+2355.9s 115 akshara_bpe_16k__transformer__s1+constrained: malformed 0 in 109,192 aksharas (0.00/1000), nonword 4.29%  (1.4 min)
+2355.9s 116 akshara_bpe_16k__transformer__s2+constrained: malformed 0 in 107,532 aksharas (0.00/1000), nonword 4.2%  (1.4 min)
+2355.9s 117 plain_bpe_16k__mamba__s1+constrained: malformed 0 in 97,733 aksharas (0.00/1000), nonword 3.98%  (7.5 min)
+2355.9s 118 plain_bpe_16k__mamba__s2+constrained: malformed 0 in 107,999 aksharas (0.00/1000), nonword 3.7%  (7.6 min)
+2355.9s 119 plain_bpe_16k__transformer__s1+constrained: malformed 0 in 107,442 aksharas (0.00/1000), nonword 4.35%  (1.4 min)
+2355.9s 120 plain_bpe_16k__transformer__s2+constrained: malformed 0 in 108,347 aksharas (0.00/1000), nonword 4.13%  (1.4 min)
+2355.9s 121 | Model | Malformed | Aksharas | per 1000 | Words with malformed syllable | Non-words | Words per sample |
+2355.9s 122 |---|---|---|---|---|---|---|
+2355.9s 123 | human-written reference | 156 | 512,377 | 0.30 | 0.09% | 4.24% | 33.6 |
+2355.9s 124 | akshara_bpe_16k__mamba__s1+constrained | 0 | 109,743 | 0.00 | 0.00% | 3.84% | 13.3 |
+2355.9s 125 | akshara_bpe_16k__mamba__s2+constrained | 0 | 99,482 | 0.00 | 0.00% | 4.24% | 12.1 |
+2355.9s 126 | akshara_bpe_16k__transformer__s1+constrained | 0 | 109,192 | 0.00 | 0.00% | 4.29% | 13.4 |
+2355.9s 127 | akshara_bpe_16k__transformer__s2+constrained | 0 | 107,532 | 0.00 | 0.00% | 4.20% | 13.2 |
+2355.9s 128 | plain_bpe_16k__mamba__s1+constrained | 0 | 97,733 | 0.00 | 0.00% | 3.98% | 12.0 |
+2355.9s 129 | plain_bpe_16k__mamba__s2+constrained | 0 | 107,999 | 0.00 | 0.00% | 3.70% | 13.1 |
+2355.9s 130 | plain_bpe_16k__transformer__s1+constrained | 0 | 107,442 | 0.00 | 0.00% | 4.35% | 13.4 |
+2355.9s 131 | plain_bpe_16k__transformer__s2+constrained | 0 | 108,347 | 0.00 | 0.00% | 4.13% | 13.3 |
+2355.9s 132 **Pooled over seeds**
+2355.9s 133 | Tokenizer | Arch | Decoding | Models | Malformed / aksharas | per 1000 | Words with malformed syllable | Non-words |
+2355.9s 134 |---|---|---|---|---|---|---|---|
+2355.9s 135 | akshara_bpe_16k | all | constrained | 4 | 0 / 425,949 | 0.000 | 0.000% | 4.14% |
+2355.9s 136 | plain_bpe_16k | all | constrained | 4 | 0 / 421,521 | 0.000 | 0.000% | 4.04% |
+2355.9s 137 | akshara_bpe_16k | mamba | constrained | 2 | 0 / 209,225 | 0.000 | 0.000% | 4.03% |
+2355.9s 138 | plain_bpe_16k | mamba | constrained | 2 | 0 / 205,732 | 0.000 | 0.000% | 3.84% |
+2355.9s 139 | akshara_bpe_16k | transformer | constrained | 2 | 0 / 216,724 | 0.000 | 0.000% | 4.24% |
+2355.9s 140 | plain_bpe_16k | transformer | constrained | 2 | 0 / 215,789 | 0.000 | 0.000% | 4.24% |
+2355.9s 141 **Exact rate tests (malformed syllables)**
+2355.9s 142 | Comparison | Arch | Counts | Rate ratio | p-value |
+2355.9s 143 |---|---|---|---|---|
+2355.9s 144 | plain vs AksharaPiece (constrained) | mamba | 0 vs 0 | nan | 1 |
+2355.9s 145 | plain vs AksharaPiece (constrained) | transformer | 0 vs 0 | nan | 1 |
+2355.9s 146 | plain vs AksharaPiece (constrained) | all | 0 vs 0 | nan | 1 |
+2355.9s 147 $ python scripts/generation_stats.py results/gen_free/generation_metrics.json results/gen_constrained/generation_metrics.json --out results/generation_summary
+2356.0s 148 Human-written reference: 156 malformed in 512,377 aksharas (0.304/1000), non-words 4.24%
+2356.0s 149 
+2356.0s 150 | Tokenizer | Arch | Decoding | Models | Malformed / aksharas | per 1000 | Words with malformed syllable | Non-words |
+2356.0s 151 |---|---|---|---|---|---|---|---|
+2356.0s 152 | akshara_bpe_16k | all | constrained | 4 | 0 / 425,949 | 0.000 | 0.000% | 4.14% |
+2356.0s 153 | plain_bpe_16k | all | constrained | 4 | 0 / 421,521 | 0.000 | 0.000% | 4.04% |
+2356.0s 154 | akshara_bpe_16k | mamba | constrained | 2 | 0 / 209,225 | 0.000 | 0.000% | 4.03% |
+2356.0s 155 | plain_bpe_16k | mamba | constrained | 2 | 0 / 205,732 | 0.000 | 0.000% | 3.84% |
+2356.0s 156 | akshara_bpe_16k | transformer | constrained | 2 | 0 / 216,724 | 0.000 | 0.000% | 4.24% |
+2356.0s 157 | plain_bpe_16k | transformer | constrained | 2 | 0 / 215,789 | 0.000 | 0.000% | 4.24% |
+2356.0s 158 | akshara_bpe_16k | all | free | 4 | 102 / 425,350 | 0.240 | 0.058% | 4.23% |
+2356.0s 159 | plain_bpe_16k | all | free | 4 | 66 / 420,162 | 0.157 | 0.041% | 4.09% |
+2356.0s 160 | akshara_bpe_16k | mamba | free | 2 | 41 / 208,287 | 0.197 | 0.052% | 4.15% |
+2356.0s 161 | plain_bpe_16k | mamba | free | 2 | 40 / 203,972 | 0.196 | 0.051% | 4.03% |
+2356.0s 162 | akshara_bpe_16k | transformer | free | 2 | 61 / 217,063 | 0.281 | 0.064% | 4.30% |
+2356.0s 163 | plain_bpe_16k | transformer | free | 2 | 26 / 216,190 | 0.120 | 0.031% | 4.15% |
+2356.0s 164 
+2356.0s 165 **Exact rate tests (malformed syllables)**
+2356.0s 166 
+2356.0s 167 | Comparison | Arch | Counts | Rate ratio | p-value |
+2356.0s 168 |---|---|---|---|---|
+2356.0s 169 | plain vs AksharaPiece (free decoding) | mamba | 40 vs 41 | 1.00 | 1 |
+2356.0s 170 | plain vs AksharaPiece (constrained) | mamba | 0 vs 0 | nan | 1 |
+2356.0s 171 | plain: free vs constrained | mamba | 40 vs 0 | nan | 7.7e-13 |
+2356.0s 172 | AksharaPiece: free vs constrained | mamba | 41 vs 0 | nan | 4.1e-13 |
+2356.0s 173 | plain vs AksharaPiece (free decoding) | transformer | 26 vs 61 | 0.43 | 0.00022 |
+2356.0s 174 | plain vs AksharaPiece (constrained) | transformer | 0 vs 0 | nan | 1 |
+2356.0s 175 | plain: free vs constrained | transformer | 26 vs 0 | nan | 3e-08 |
+2356.0s 176 | AksharaPiece: free vs constrained | transformer | 61 vs 0 | nan | 8.7e-19 |
+2356.0s 177 | plain vs AksharaPiece (free decoding) | all | 66 vs 102 | 0.66 | 0.0085 |
+2356.0s 178 | plain vs AksharaPiece (constrained) | all | 0 vs 0 | nan | 1 |
+2356.0s 179 | plain: free vs constrained | all | 66 vs 0 | nan | 1.2e-20 |
+2356.0s 180 | AksharaPiece: free vs constrained | all | 102 vs 0 | nan | 1.8e-31 |
+2356.0s 181 
+2356.3s 182 akshara_bpe_16k__mamba__s1+constrained              1  हुन्छ(फेनेस्टे्रा)
+2356.5s 183 akshara_bpe_16k__mamba__s2+constrained              1  हुन्छ(फेनेस्टे्रा)
+2356.5s 184 akshara_bpe_16k__transformer__s1+constrained        1  हुन्छ(फेनेस्टे्रा)
+2356.7s 185 akshara_bpe_16k__transformer__s2+constrained        1  हुन्छ(फेनेस्टे्रा)
+2356.8s 186 plain_bpe_16k__mamba__s1+constrained                1  हुन्छ(फेनेस्टे्रा)
+2356.9s 187 plain_bpe_16k__mamba__s2+constrained                1  हुन्छ(फेनेस्टे्रा)
+2357.0s 188 plain_bpe_16k__transformer__s1+constrained          1  हुन्छ(फेनेस्टे्रा)
+2357.0s 189 plain_bpe_16k__transformer__s2+constrained          1  हुन्छ(फेनेस्टे्रा)
+2357.4s 190 akshara_bpe_16k__mamba__s1                         21  विानुसारका आफंैले रहर्मन्नोेकाहरुको हुन्छ(फेनेस्टे्रा) झ्ेख "चतु्खाब" सञ्ार कुुशल पुजीे पलाला्घुमा दुुई यहाात
+2357.4s 191 akshara_bpe_16k__mamba__s2                         20  लभ्ली्ठी, हुन्छ(फेनेस्टे्रा) मिडिेन कर्मैै दुई-गृहोोड-नग्न कोला्रज पुुग्ने गैर-शुष्किीकरण दि्छन्। मन्त्रयबहसम्ैसाथ धु्रवका वस्तुुको
+2357.5s 192 akshara_bpe_16k__transformer__s1                   34  रहेकोे पि्रय पुुर ितासहोदा बेष्ट्रात्वााना हुन्छ(फेनेस्टे्रा) दुुई-कारुङ्गीहरू दि्छन। क्रेुवर हुुनै यहाास्क, स्वातmूप
+2357.5s 193 akshara_bpe_16k__transformer__s2                   19  ु, (४५५ः४८ः१३।०१ः५८,९७७ः४१ः४७)। गहँुदैन योे १ः३० ¥ाृङ्खला हुन्छ(फेनेस्टे्रा) गिमिकोेली दि्छ। भनुृला आपैmँटालाई िप्रदेशको
+2357.9s 194 plain_bpe_16k__mamba__s1                           20  सिंगे्रसका हुन्छ(फेनेस्टे्रा) एण्टि्रयाक्ट मिस्रेकोे स्टेपबे्रक िन्होइटर गुरूंै उत्पत्तिित लाग््छ ुबाध्यलाग्दो सुुरु अध्र्ारियों
+2357.9s 195 plain_bpe_16k__mamba__s2                           20  गर्नुुपर्ने दि्छ, हेर्‍यांै चुुंगांै’ हुन्छ(फेनेस्टे्रा) दि्छ। दि्छ समस्याित नैवेद्यश्योेपित 'ु' हरििमानी वहाँलेै
+2358.1s 196 plain_bpe_16k__transformer__s1                     10  बंैक बुझ्नुु हुन्छ(फेनेस्टे्रा) निद्राै निर्धा्रित सम्यक््यै भएकोे नअााचर्चित मुुलुकलाई पुुर्‍याएर
+2358.1s 197 plain_bpe_16k__transformer__s2                     17  निर्धा्रित तुुलमुनिको मुुख्य युुभन हुन्छ(फेनेस्टे्रा) डाटा्स उहाँे बोर्रेमोथेलोजिस्ट्यान्क्युियल मनैा, सुुकुुुुुखले काबुु सखारोबृाका
+2359.5s 198 Saved /kaggle/working/aksharapiece_gen_results.zip
+2363.2s 199 /usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+2363.2s 200 cells[i][c] = re.sub('\\\\\|', '|', cell)
+2363.4s 201 /usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+2363.4s 202 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+2364.2s 203 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+2364.3s 204 [NbConvertApp] Writing 392878 bytes to __notebook__.ipynb
+2367.0s 205 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+2367.6s 206 [NbConvertApp] Writing 707194 bytes to __results__.html

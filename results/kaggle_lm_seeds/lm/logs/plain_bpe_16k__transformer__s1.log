@@ -1,0 +1,68 @@
+[plain_bpe_16k__transformer__s1] device cuda (torch.float16) | params 27.3M non-embedding + 8.2M embedding | 47,990,357 train tokens | 2,929 steps x 16,384 tokens
+  step      0/2929  loss 9.775  lr 1.15e-05  16,356 tok/s  0.0 min
+  step     50/2929  loss 7.913  lr 5.86e-04  31,167 tok/s  0.4 min
+  step    100/2929  loss 7.113  lr 1.00e-03  31,006 tok/s  0.9 min
+  step    150/2929  loss 6.580  lr 9.99e-04  30,789 tok/s  1.3 min
+  step    200/2929  loss 6.312  lr 9.96e-04  30,624 tok/s  1.8 min
+  step    250/2929  loss 6.072  lr 9.93e-04  30,469 tok/s  2.2 min
+  step    300/2929  loss 5.815  lr 9.88e-04  30,324 tok/s  2.7 min
+  step    350/2929  loss 5.762  lr 9.81e-04  30,191 tok/s  3.2 min
+  step    400/2929  loss 5.629  lr 9.73e-04  30,076 tok/s  3.6 min
+  step    450/2929  loss 5.479  lr 9.64e-04  29,974 tok/s  4.1 min
+  step    500/2929  loss 5.402  lr 9.54e-04  29,884 tok/s  4.6 min
+  eval step 500: val loss/token 5.480  ~BPB 0.6327
+  step    550/2929  loss 5.313  lr 9.42e-04  29,573 tok/s  5.1 min
+  step    600/2929  loss 5.348  lr 9.30e-04  29,521 tok/s  5.6 min
+  step    650/2929  loss 5.365  lr 9.16e-04  29,472 tok/s  6.0 min
+  step    700/2929  loss 5.167  lr 9.01e-04  29,448 tok/s  6.5 min
+  step    750/2929  loss 5.223  lr 8.84e-04  29,437 tok/s  7.0 min
+  step    800/2929  loss 5.136  lr 8.67e-04  29,404 tok/s  7.4 min
+  step    850/2929  loss 5.110  lr 8.49e-04  29,382 tok/s  7.9 min
+  step    900/2929  loss 5.084  lr 8.30e-04  29,381 tok/s  8.4 min
+  step    950/2929  loss 5.063  lr 8.10e-04  29,356 tok/s  8.8 min
+  step   1000/2929  loss 5.022  lr 7.90e-04  29,339 tok/s  9.3 min
+  eval step 1000: val loss/token 5.034  ~BPB 0.5812
+  step   1050/2929  loss 5.023  lr 7.68e-04  29,217 tok/s  9.8 min
+  step   1100/2929  loss 5.025  lr 7.46e-04  29,199 tok/s  10.3 min
+  step   1150/2929  loss 4.999  lr 7.23e-04  29,189 tok/s  10.8 min
+  step   1200/2929  loss 4.940  lr 7.00e-04  29,187 tok/s  11.2 min
+  step   1250/2929  loss 4.972  lr 6.77e-04  29,188 tok/s  11.7 min
+  step   1300/2929  loss 4.856  lr 6.53e-04  29,190 tok/s  12.2 min
+  step   1350/2929  loss 4.787  lr 6.28e-04  29,193 tok/s  12.6 min
+  step   1400/2929  loss 4.828  lr 6.04e-04  29,193 tok/s  13.1 min
+  step   1450/2929  loss 4.822  lr 5.79e-04  29,192 tok/s  13.6 min
+  step   1500/2929  loss 4.928  lr 5.54e-04  29,189 tok/s  14.0 min
+  eval step 1500: val loss/token 4.801  ~BPB 0.5543
+  step   1550/2929  loss 4.780  lr 5.29e-04  29,107 tok/s  14.6 min
+  step   1600/2929  loss 4.814  lr 5.04e-04  29,105 tok/s  15.0 min
+  step   1650/2929  loss 4.793  lr 4.80e-04  29,102 tok/s  15.5 min
+  step   1700/2929  loss 4.739  lr 4.55e-04  29,098 tok/s  16.0 min
+  step   1750/2929  loss 4.708  lr 4.31e-04  29,095 tok/s  16.4 min
+  step   1800/2929  loss 4.693  lr 4.07e-04  29,093 tok/s  16.9 min
+  step   1850/2929  loss 4.705  lr 3.84e-04  29,089 tok/s  17.4 min
+  step   1900/2929  loss 4.544  lr 3.61e-04  29,087 tok/s  17.8 min
+  step   1950/2929  loss 4.637  lr 3.39e-04  29,084 tok/s  18.3 min
+  step   2000/2929  loss 4.640  lr 3.17e-04  29,082 tok/s  18.8 min
+  eval step 2000: val loss/token 4.640  ~BPB 0.5358
+  step   2050/2929  loss 4.617  lr 2.96e-04  29,019 tok/s  19.3 min
+  step   2100/2929  loss 4.681  lr 2.76e-04  29,016 tok/s  19.8 min
+  step   2150/2929  loss 4.563  lr 2.57e-04  29,016 tok/s  20.2 min
+  step   2200/2929  loss 4.636  lr 2.38e-04  29,014 tok/s  20.7 min
+  step   2250/2929  loss 4.517  lr 2.21e-04  29,013 tok/s  21.2 min
+  step   2300/2929  loss 4.517  lr 2.04e-04  29,012 tok/s  21.7 min
+  step   2350/2929  loss 4.493  lr 1.89e-04  29,014 tok/s  22.1 min
+  step   2400/2929  loss 4.531  lr 1.75e-04  29,017 tok/s  22.6 min
+  step   2450/2929  loss 4.496  lr 1.62e-04  29,023 tok/s  23.1 min
+  step   2500/2929  loss 4.531  lr 1.50e-04  29,029 tok/s  23.5 min
+  eval step 2500: val loss/token 4.536  ~BPB 0.5237
+  step   2550/2929  loss 4.597  lr 1.39e-04  28,989 tok/s  24.0 min
+  step   2600/2929  loss 4.524  lr 1.29e-04  28,994 tok/s  24.5 min
+  step   2650/2929  loss 4.473  lr 1.21e-04  29,000 tok/s  25.0 min
+  step   2700/2929  loss 4.465  lr 1.14e-04  29,004 tok/s  25.4 min
+  step   2750/2929  loss 4.485  lr 1.09e-04  29,009 tok/s  25.9 min
+  step   2800/2929  loss 4.467  lr 1.05e-04  29,013 tok/s  26.4 min
+  step   2850/2929  loss 4.509  lr 1.02e-04  29,016 tok/s  26.8 min
+  step   2900/2929  loss 4.451  lr 1.00e-04  29,019 tok/s  27.3 min
+  step   2928/2929  loss 4.399  lr 1.00e-04  29,021 tok/s  27.6 min
+  eval step 2928: val loss/token 4.494  ~BPB 0.5188
+[plain_bpe_16k__transformer__s1] DONE  BPB 0.5165  (loss/token 4.473, 27.6 min)

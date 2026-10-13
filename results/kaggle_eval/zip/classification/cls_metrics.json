@@ -1,0 +1,90 @@
+[
+  {
+    "model": "akshara_bpe_16k__mamba__s1",
+    "tokenizer": "akshara_bpe_16k",
+    "arch": "mamba",
+    "seed": "s1",
+    "accuracy": 0.84475,
+    "macro_f1": 0.8442860133319744,
+    "avg_tokens": 123.5242,
+    "truncated_%": 0.015,
+    "minutes": 19.31948207219442
+  },
+  {
+    "model": "akshara_bpe_16k__mamba__s2",
+    "tokenizer": "akshara_bpe_16k",
+    "arch": "mamba",
+    "seed": "s2",
+    "accuracy": 0.838,
+    "macro_f1": 0.8372787422143924,
+    "avg_tokens": 123.5242,
+    "truncated_%": 0.015,
+    "minutes": 18.630944069226583
+  },
+  {
+    "model": "akshara_bpe_16k__transformer__s1",
+    "tokenizer": "akshara_bpe_16k",
+    "arch": "transformer",
+    "seed": "s1",
+    "accuracy": 0.83825,
+    "macro_f1": 0.8381111278833586,
+    "avg_tokens": 123.5242,
+    "truncated_%": 0.015,
+    "minutes": 4.093825817108154
+  },
+  {
+    "model": "akshara_bpe_16k__transformer__s2",
+    "tokenizer": "akshara_bpe_16k",
+    "arch": "transformer",
+    "seed": "s2",
+    "accuracy": 0.833,
+    "macro_f1": 0.8326249114698996,
+    "avg_tokens": 123.5242,
+    "truncated_%": 0.015,
+    "minutes": 4.095030113061269
+  },
+  {
+    "model": "plain_bpe_16k__mamba__s1",
+    "tokenizer": "plain_bpe_16k",
+    "arch": "mamba",
+    "seed": "s1",
+    "accuracy": 0.84425,
+    "macro_f1": 0.8439112876811254,
+    "avg_tokens": 121.5329,
+    "truncated_%": 0.015,
+    "minutes": 18.693211130301158
+  },
+  {
+    "model": "plain_bpe_16k__mamba__s2",
+    "tokenizer": "plain_bpe_16k",
+    "arch": "mamba",
+    "seed": "s2",
+    "accuracy": 0.837,
+    "macro_f1": 0.836211941558506,
+    "avg_tokens": 121.5329,
+    "truncated_%": 0.015,
+    "minutes": 18.535995093981423
+  },
+  {
+    "model": "plain_bpe_16k__transformer__s1",
+    "tokenizer": "plain_bpe_16k",
+    "arch": "transformer",
+    "seed": "s1",
+    "accuracy": 0.835,
+    "macro_f1": 0.8346738596248207,
+    "avg_tokens": 121.5329,
+    "truncated_%": 0.015,
+    "minutes": 4.0482581615447994
+  },
+  {
+    "model": "plain_bpe_16k__transformer__s2",
+    "tokenizer": "plain_bpe_16k",
+    "arch": "transformer",
+    "seed": "s2",
+    "accuracy": 0.8335,
+    "macro_f1": 0.8329623029380882,
+    "avg_tokens": 121.5329,
+    "truncated_%": 0.015,
+    "minutes": 4.05276700258255
+  }
+]

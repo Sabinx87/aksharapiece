@@ -1,0 +1,65 @@
+downloading Suyogyart/np20ng/np20ng.csv ...
+231,216 documents -> 20 classes, 20,000 train / 4,000 test
+  classes: Arts (200), Automobile (200), Bank (200), Business (200), Crime (200), Economy (200), Education (200), Employment (200), Entertainment (200), Health (200), Lifestyle (200), Literature (200), Market (200), Opinion (200), Politics (200), Society (200), Sports (200), Technology (200), Tourism (200), World (200)
+  akshara_bpe_16k__mamba__s1
+    epoch 1: train loss 0.847
+    epoch 2: train loss 0.317
+    epoch 3: train loss 0.107
+    accuracy 84.47%  macro-F1 84.43  (124 tokens/doc, 19.3 min)
+  akshara_bpe_16k__mamba__s2
+    epoch 1: train loss 0.837
+    epoch 2: train loss 0.319
+    epoch 3: train loss 0.106
+    accuracy 83.80%  macro-F1 83.73  (124 tokens/doc, 18.6 min)
+  akshara_bpe_16k__transformer__s1
+    epoch 1: train loss 0.866
+    epoch 2: train loss 0.348
+    epoch 3: train loss 0.110
+    accuracy 83.83%  macro-F1 83.81  (124 tokens/doc, 4.1 min)
+  akshara_bpe_16k__transformer__s2
+    epoch 1: train loss 0.848
+    epoch 2: train loss 0.338
+    epoch 3: train loss 0.102
+    accuracy 83.30%  macro-F1 83.26  (124 tokens/doc, 4.1 min)
+  plain_bpe_16k__mamba__s1
+    epoch 1: train loss 0.845
+    epoch 2: train loss 0.312
+    epoch 3: train loss 0.097
+    accuracy 84.42%  macro-F1 84.39  (122 tokens/doc, 18.7 min)
+  plain_bpe_16k__mamba__s2
+    epoch 1: train loss 0.849
+    epoch 2: train loss 0.312
+    epoch 3: train loss 0.095
+    accuracy 83.70%  macro-F1 83.62  (122 tokens/doc, 18.5 min)
+  plain_bpe_16k__transformer__s1
+    epoch 1: train loss 0.859
+    epoch 2: train loss 0.338
+    epoch 3: train loss 0.103
+    accuracy 83.50%  macro-F1 83.47  (122 tokens/doc, 4.0 min)
+  plain_bpe_16k__transformer__s2
+    epoch 1: train loss 0.851
+    epoch 2: train loss 0.334
+    epoch 3: train loss 0.098
+    accuracy 83.35%  macro-F1 83.30  (122 tokens/doc, 4.1 min)
+20 classes, 20,000 train / 4,000 test documents, first 600 characters.
+
+| Model | Accuracy | Macro-F1 | Tokens per doc | Truncated |
+|---|---|---|---|---|
+| akshara_bpe_16k__mamba__s1 | 84.47% | 84.43 | 124 | 0.0% |
+| akshara_bpe_16k__mamba__s2 | 83.80% | 83.73 | 124 | 0.0% |
+| akshara_bpe_16k__transformer__s1 | 83.83% | 83.81 | 124 | 0.0% |
+| akshara_bpe_16k__transformer__s2 | 83.30% | 83.26 | 124 | 0.0% |
+| plain_bpe_16k__mamba__s1 | 84.42% | 84.39 | 122 | 0.0% |
+| plain_bpe_16k__mamba__s2 | 83.70% | 83.62 | 122 | 0.0% |
+| plain_bpe_16k__transformer__s1 | 83.50% | 83.47 | 122 | 0.0% |
+| plain_bpe_16k__transformer__s2 | 83.35% | 83.30 | 122 | 0.0% |
+
+**Mean ± sd over pretraining seeds**
+
+| Tokenizer | Arch | Seeds | Accuracy | Macro-F1 |
+|---|---|---|---|---|
+| akshara_bpe_16k | mamba | 2 | 84.14 ± 0.48 | 84.08 ± 0.50 |
+| plain_bpe_16k | mamba | 2 | 84.06 ± 0.51 | 84.01 ± 0.54 |
+| akshara_bpe_16k | transformer | 2 | 83.56 ± 0.37 | 83.54 ± 0.39 |
+| plain_bpe_16k | transformer | 2 | 83.43 ± 0.11 | 83.38 ± 0.12 |
+

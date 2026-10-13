@@ -1,0 +1,14 @@
+{
+  "name": "plain_bpe_16k",
+  "spec": "hf:data/tok/plain_bpe_16k.json",
+  "tokenizer_vocab": 16000,
+  "model_vocab": 16001,
+  "sep_id": 16000,
+  "train_tokens": 47990357,
+  "train_bytes": 600000006,
+  "val_tokens": 400183,
+  "val_bytes": 5000242,
+  "train_unk_rate": 3.6882409522396344e-05,
+  "val_unk_rate": 2.2489710957237063e-05,
+  "bytes_per_token": 12.502511827532352
+}

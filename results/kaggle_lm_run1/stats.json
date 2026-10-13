@@ -1,0 +1,12 @@
+{
+  "read": 5133958,
+  "filtered": 2619502,
+  "duplicate": 9983,
+  "test_overlap": 0,
+  "kept": 2504473,
+  "written_mb": {
+    "heldout.txt": 20.0,
+    "tokenizer_train.txt": 100.0,
+    "pretrain.txt": 1369.95
+  }
+}

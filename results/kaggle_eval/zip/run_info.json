@@ -1,0 +1,25 @@
+{
+  "settings": {
+    "N_PROMPTS": 300,
+    "PROMPT_WORDS": 6,
+    "MAX_NEW": 64,
+    "WORDLIST_MB": 200,
+    "CLS_TRAIN_PER_CLASS": 1000,
+    "CLS_TEST_PER_CLASS": 200,
+    "CLS_EPOCHS": 3
+  },
+  "models": [
+    "akshara_bpe_16k__mamba__s1.pt",
+    "akshara_bpe_16k__mamba__s2.pt",
+    "akshara_bpe_16k__transformer__s1.pt",
+    "akshara_bpe_16k__transformer__s2.pt",
+    "plain_bpe_16k__mamba__s1.pt",
+    "plain_bpe_16k__mamba__s2.pt",
+    "plain_bpe_16k__transformer__s1.pt",
+    "plain_bpe_16k__transformer__s2.pt"
+  ],
+  "gpus": [
+    "Tesla T4",
+    "Tesla T4"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "run": "akshara_bpe_16k__transformer",
+  "tokenizer": "akshara_bpe_16k",
+  "arch": "transformer",
+  "bpb": 0.5116072233282761,
+  "val_loss_per_token": 4.36179073378763,
+  "val_tokens": 406526,
+  "val_bytes": 5000242,
+  "train_tokens_seen": 48742400,
+  "train_bytes": 600000006,
+  "steps": 2975,
+  "tokenizer_vocab": 16000,
+  "bytes_per_token": 12.305538015036753,
+  "val_unk_rate": 2.2138750931672435e-05,
+  "params": {
+    "total": 35464192,
+    "embedding": 8192512,
+    "non_embedding": 27271680
+  },
+  "config": {
+    "arch": "transformer",
+    "vocab_size": 16001,
+    "d_model": 512,
+    "n_layers": 8,
+    "n_heads": 8,
+    "ffn_mult": 3.0,
+    "d_state": 64,
+    "headdim": 64,
+    "expand": 2,
+    "d_conv": 4,
+    "chunk": 64,
+    "max_seq_len": 1024
+  },
+  "train_minutes": 115.04541473388672,
+  "train_tokens_per_sec": 7061.327348095066,
+  "peak_gpu_gb": 12.469831168,
+  "device": "Tesla T4",
+  "dtype": "torch.bfloat16",
+  "args": {
+    "tokens": "data/tokens/akshara_bpe_16k",
+    "arch": "transformer",
+    "out": "results/lm",
+    "d_model": 512,
+    "layers": null,
+    "heads": 8,
+    "seq_len": 1024,
+    "batch": 16,
+    "grad_accum": 1,
+    "lr": 0.001,
+    "min_lr_ratio": 0.1,
+    "warmup": 0.03,
+    "weight_decay": 0.1,
+    "clip": 1.0,
+    "epochs": 1.0,
+    "max_steps": null,
+    "eval_every": 500,
+    "eval_tokens": 200000,
+    "seed": 0,
+    "device": "auto",
+    "save_model": false
+  },
+  "history": [
+    {
+      "step": 500,
+      "tokens": 8208384,
+      "train_loss": 5.359740257263184,
+      "val_bpb_est": 0.6294840206873595
+    },
+    {
+      "step": 1000,
+      "tokens": 16400384,
+      "train_loss": 4.889678955078125,
+      "val_bpb_est": 0.5786355840435413
+    },
+    {
+      "step": 1500,
+      "tokens": 24592384,
+      "train_loss": 4.714153289794922,
+      "val_bpb_est": 0.5513087747136789
+    },
+    {
+      "step": 2000,
+      "tokens": 32784384,
+      "train_loss": 4.55207633972168,
+      "val_bpb_est": 0.532136614437014
+    },
+    {
+      "step": 2500,
+      "tokens": 40976384,
+      "train_loss": 4.395788192749023,
+      "val_bpb_est": 0.5197968447583461
+    },
+    {
+      "step": 2974,
+      "tokens": 48742400,
+      "train_loss": 4.3665056228637695,
+      "val_bpb_est": 0.5139523888148277
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "N_PROMPTS": 3000,
+    "PROMPT_WORDS": 6,
+    "MAX_NEW": 64,
+    "WORDLIST_MB": 200,
+    "BATCH": 96
+  },
+  "models": [
+    "akshara_bpe_16k__mamba__s1.pt",
+    "akshara_bpe_16k__mamba__s2.pt",
+    "akshara_bpe_16k__transformer__s1.pt",
+    "akshara_bpe_16k__transformer__s2.pt",
+    "plain_bpe_16k__mamba__s1.pt",
+    "plain_bpe_16k__mamba__s2.pt",
+    "plain_bpe_16k__transformer__s1.pt",
+    "plain_bpe_16k__transformer__s2.pt"
+  ],
+  "gpus": [
+    "Tesla T4",
+    "Tesla T4"
+  ]
+}

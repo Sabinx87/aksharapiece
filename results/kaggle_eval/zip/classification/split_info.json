@@ -1,0 +1,42 @@
+{
+  "labels": [
+    "Arts",
+    "Automobile",
+    "Bank",
+    "Business",
+    "Crime",
+    "Economy",
+    "Education",
+    "Employment",
+    "Entertainment",
+    "Health",
+    "Lifestyle",
+    "Literature",
+    "Market",
+    "Opinion",
+    "Politics",
+    "Society",
+    "Sports",
+    "Technology",
+    "Tourism",
+    "World"
+  ],
+  "n_train": 20000,
+  "n_test": 4000,
+  "args": {
+    "models": "/kaggle/input/notebooks/mr98rs/aksharapiece-seeds/models/*.pt",
+    "tokenizers": "/tmp/aksharapiece_eval/tokenizers",
+    "csv": null,
+    "hf_dataset": "Suyogyart/np20ng",
+    "hf_file": "np20ng.csv",
+    "cache_dir": "/tmp/aksharapiece_eval/hf_cache",
+    "train_per_class": 1000,
+    "test_per_class": 200,
+    "max_chars": 600,
+    "max_tokens": 256,
+    "epochs": 3,
+    "batch": 32,
+    "lr": 0.0001,
+    "out": "results/classification"
+  }
+}

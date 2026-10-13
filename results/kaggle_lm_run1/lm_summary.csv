@@ -1,0 +1,5 @@
+tokenizer,arch,bpb,val_loss_per_token,bytes_per_token,train_tokens_M,non_embedding_M,embedding_M,train_min,tokens_per_sec,unk_rate_%,device
+akshara_bpe_16k,mamba,0.5066,4.319,12.31,48.7,26.5,8.2,143.1,5677,0.0022,Tesla T4
+plain_bpe_16k,mamba,0.5074,4.395,12.5,48.0,26.5,8.2,146.2,5469,0.0022,Tesla T4
+akshara_bpe_16k,transformer,0.5116,4.362,12.31,48.7,27.3,8.2,115.0,7061,0.0022,Tesla T4
+plain_bpe_16k,transformer,0.5158,4.467,12.5,48.0,27.3,8.2,108.8,7349,0.0022,Tesla T4
