@@ -1,0 +1,14 @@
+tokenizers>=0.20
+sentencepiece>=0.2
+tiktoken>=0.7
+nepalitokenizers>=0.0.2
+mistral-common>=1.4
+regex
+pytest
+# for --hf baselines and IndicCorp download (Kaggle / Colab)
+transformers>=4.44
+huggingface_hub
+pyarrow
+torch>=2.3  # model training (preinstalled on Kaggle)
+numpy
+matplotlib

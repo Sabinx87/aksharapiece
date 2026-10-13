@@ -1,0 +1,356 @@
+% references.bib for "Keeping Syllables Whole Is Not Enough"
+% Entries marked "% CHECK" are web resources or details worth confirming before submission.
+
+% ---------------------------------------------------------------- Nepali and Indic NLP
+@inproceedings{luitel-etal-2025-perplexity,
+  title     = {Can Perplexity Predict Fine-tuning Performance? An Investigation of Tokenization Effects on Sequential Language Models for {N}epali},
+  author    = {Luitel, Nishant and Bekoju, Nirajan and Sah, Anand Kumar and Shakya, Subarna},
+  booktitle = {Proceedings of the Fourth Workshop on Generation, Evaluation and Metrics ({GEM}$^2$)},
+  year      = {2025},
+  address   = {Vienna, Austria},
+  publisher = {Association for Computational Linguistics},
+  pages     = {239--248}
+}
+
+@inproceedings{timilsina-etal-2022-nepberta,
+  title     = {{N}ep{BERT}a: {N}epali Language Model Trained in a Large Corpus},
+  author    = {Timilsina, Sulav and Gautam, Milan and Bhattarai, Binod},
+  booktitle = {Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 12th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)},
+  year      = {2022},
+  address   = {Online only},
+  publisher = {Association for Computational Linguistics},
+  pages     = {273--284}
+}
+
+@inproceedings{maskey-etal-2022-nepali,
+  title     = {{N}epali Encoder Transformers: An Analysis of Auto Encoding Transformer Language Models for {N}epali Text Classification},
+  author    = {Maskey, Utsav and Bhatta, Manish and Bhatt, Shiva and Dhungel, Sanket and Bal, Bal Krishna},
+  booktitle = {Proceedings of the 1st Annual Meeting of the ELRA/ISCA Special Interest Group on Under-Resourced Languages},
+  year      = {2022},
+  address   = {Marseille, France},
+  publisher = {European Language Resources Association},
+  pages     = {106--111}
+}
+
+@inproceedings{doddapaneni-etal-2023-towards,
+  title     = {Towards Leaving No {I}ndic Language Behind: Building Monolingual Corpora, Benchmark and Models for {I}ndic Languages},
+  author    = {Doddapaneni, Sumanth and Aralikatte, Rahul and Ramesh, Gowtham and Goyal, Shreya and Khapra, Mitesh M. and Kunchukuttan, Anoop and Kumar, Pratyush},
+  booktitle = {Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  year      = {2023},
+  address   = {Toronto, Canada},
+  publisher = {Association for Computational Linguistics},
+  pages     = {12402--12426}
+}
+
+@article{khanuja2021muril,
+  title   = {{MuRIL}: Multilingual Representations for {I}ndian Languages},
+  author  = {Khanuja, Simran and Bansal, Diksha and Mehtani, Sarvesh and Khosla, Savya and Dey, Atreyee and Gopalan, Balaji and Margam, Dilip Kumar and Aggarwal, Pooja and Nagipogu, Rajiv Teja and Dave, Shachi and Gupta, Shruti and Gali, Subhash Chandra Bose and Subramanian, Vish and Talukdar, Partha},
+  journal = {arXiv preprint arXiv:2103.10730},
+  year    = {2021}
+}
+
+@inproceedings{guzman-etal-2019-flores,
+  title     = {The {FLORES} Evaluation Datasets for Low-Resource Machine Translation: {N}epali{--}{E}nglish and {S}inhala{--}{E}nglish},
+  author    = {Guzm{\'a}n, Francisco and Chen, Peng-Jen and Ott, Myle and Pino, Juan and Lample, Guillaume and Koehn, Philipp and Chaudhary, Vishrav and Ranzato, Marc{'}Aurelio},
+  booktitle = {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)},
+  year      = {2019},
+  address   = {Hong Kong, China},
+  publisher = {Association for Computational Linguistics},
+  pages     = {6098--6111}
+}
+
+@misc{np20ng,
+  title        = {np20ng: {N}epali News Dataset with 20 Categories},
+  author       = {{Suyogyart}},
+  year         = {2022},
+  howpublished = {Hugging Face dataset, \url{https://huggingface.co/datasets/Suyogyart/np20ng}},
+  note         = {Accessed October 2026}
+}
+% CHECK: replace the author field with the dataset creator's full name and year from the dataset card.
+
+@misc{nepalitokenizers,
+  author       = {{nepalitokenizers authors}},
+  title        = {nepalitokenizers: Pre-trained Tokenizers for the {N}epali Language},
+  year         = {2023},
+  howpublished = {Python package, \url{https://pypi.org/project/nepalitokenizers/}},
+  note         = {Accessed October 2026}
+}
+% CHECK: add the package author(s) from the PyPI page.
+
+@misc{sarvam1,
+  title        = {Sarvam-1},
+  author       = {{Sarvam AI}},
+  year         = {2024},
+  howpublished = {Hugging Face model card, \url{https://huggingface.co/sarvamai/sarvam-1}},
+  note         = {Accessed October 2026}
+}
+
+% ---------------------------------------------------------------- Tokenization
+@inproceedings{sennrich-etal-2016-neural,
+  title     = {Neural Machine Translation of Rare Words with Subword Units},
+  author    = {Sennrich, Rico and Haddow, Barry and Birch, Alexandra},
+  booktitle = {Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  year      = {2016},
+  address   = {Berlin, Germany},
+  publisher = {Association for Computational Linguistics},
+  pages     = {1715--1725}
+}
+
+@inproceedings{kudo-2018-subword,
+  title     = {Subword Regularization: Improving Neural Network Translation Models with Multiple Subword Candidates},
+  author    = {Kudo, Taku},
+  booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  year      = {2018},
+  address   = {Melbourne, Australia},
+  publisher = {Association for Computational Linguistics},
+  pages     = {66--75}
+}
+
+@inproceedings{kudo-richardson-2018-sentencepiece,
+  title     = {{S}entence{P}iece: A Simple and Language Independent Subword Tokenizer and Detokenizer for Neural Text Processing},
+  author    = {Kudo, Taku and Richardson, John},
+  booktitle = {Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing: System Demonstrations},
+  year      = {2018},
+  address   = {Brussels, Belgium},
+  publisher = {Association for Computational Linguistics},
+  pages     = {66--71}
+}
+
+@inproceedings{rust-etal-2021-good,
+  title     = {How Good is Your Tokenizer? On the Monolingual Performance of Multilingual Language Models},
+  author    = {Rust, Phillip and Pfeiffer, Jonas and Vuli{\'c}, Ivan and Ruder, Sebastian and Gurevych, Iryna},
+  booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)},
+  year      = {2021},
+  address   = {Online},
+  publisher = {Association for Computational Linguistics},
+  pages     = {3118--3135}
+}
+
+@inproceedings{petrov2023tokenizers,
+  title     = {Language Model Tokenizers Introduce Unfairness Between Languages},
+  author    = {Petrov, Aleksandar and La Malfa, Emanuele and Torr, Philip H. S. and Bibi, Adel},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {36},
+  year      = {2023}
+}
+
+@inproceedings{ahia-etal-2023-languages,
+  title     = {Do All Languages Cost the Same? Tokenization in the Era of Commercial Language Models},
+  author    = {Ahia, Orevaoghene and Kumar, Sachin and Gonen, Hila and Kasai, Jungo and Mortensen, David and Smith, Noah and Tsvetkov, Yulia},
+  booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2023},
+  address   = {Singapore},
+  publisher = {Association for Computational Linguistics},
+  pages     = {9904--9923}
+}
+
+@inproceedings{zouhar-etal-2023-tokenization,
+  title     = {Tokenization and the Noiseless Channel},
+  author    = {Zouhar, Vil{\'e}m and Meister, Clara and Gastaldi, Juan and Du, Li and Sachan, Mrinmaya and Cotterell, Ryan},
+  booktitle = {Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  year      = {2023},
+  address   = {Toronto, Canada},
+  publisher = {Association for Computational Linguistics},
+  pages     = {5184--5207}
+}
+
+@inproceedings{schmidt-etal-2024-tokenization,
+  title     = {Tokenization Is More Than Compression},
+  author    = {Schmidt, Craig W. and Reddy, Varshini and Zhang, Haoran and Alameddine, Alec and Uzan, Omri and Pinter, Yuval and Tanner, Chris},
+  booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2024},
+  address   = {Miami, Florida, USA},
+  publisher = {Association for Computational Linguistics},
+  pages     = {678--702}
+}
+
+@inproceedings{ali-etal-2024-tokenizer,
+  title     = {Tokenizer Choice For {LLM} Training: Negligible or Crucial?},
+  author    = {Ali, Mehdi and Fromm, Michael and Thellmann, Klaudia and Rutmann, Richard and L{\"u}bbering, Max and Leveling, Johannes and Klug, Katrin and Ebert, Jan and Doll, Niclas and Buschhoff, Jasper and others},
+  booktitle = {Findings of the Association for Computational Linguistics: NAACL 2024},
+  year      = {2024},
+  address   = {Mexico City, Mexico},
+  publisher = {Association for Computational Linguistics},
+  pages     = {3907--3924}
+}
+
+@inproceedings{bostrom-durrett-2020-byte,
+  title     = {Byte Pair Encoding is Suboptimal for Language Model Pretraining},
+  author    = {Bostrom, Kaj and Durrett, Greg},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2020},
+  year      = {2020},
+  address   = {Online},
+  publisher = {Association for Computational Linguistics},
+  pages     = {4617--4624}
+}
+
+@article{toraman2023impact,
+  title   = {Impact of Tokenization on Language Models: An Analysis for {T}urkish},
+  author  = {Toraman, Cagri and Yilmaz, Eyup Halit and {\c{S}}ahinu{\c{c}}, Furkan and Ozcelik, Oguzhan},
+  journal = {ACM Transactions on Asian and Low-Resource Language Information Processing},
+  volume  = {22},
+  number  = {4},
+  pages   = {1--21},
+  year    = {2023}
+}
+
+@inproceedings{velayuthan-sarveswaran-2025-egalitarian,
+  title     = {Egalitarian Language Representation in Language Models: It All Begins with Tokenizers},
+  author    = {Velayuthan, Menan and Sarveswaran, Kengatharaiyer},
+  booktitle = {Proceedings of the 31st International Conference on Computational Linguistics},
+  year      = {2025},
+  address   = {Abu Dhabi, UAE},
+  publisher = {Association for Computational Linguistics}
+}
+
+@inproceedings{limisiewicz-etal-2024-myte,
+  title     = {{MYTE}: Morphology-Driven Byte Encoding for Better and Fairer Multilingual Language Modeling},
+  author    = {Limisiewicz, Tomasz and Blevins, Terra and Gonen, Hila and Ahia, Orevaoghene and Zettlemoyer, Luke},
+  booktitle = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  year      = {2024},
+  address   = {Bangkok, Thailand},
+  publisher = {Association for Computational Linguistics}
+}
+
+@article{xue-etal-2022-byt5,
+  title   = {{ByT5}: Towards a Token-Free Future with Pre-trained Byte-to-Byte Models},
+  author  = {Xue, Linting and Barua, Aditya and Constant, Noah and Al-Rfou, Rami and Narang, Sharan and Kale, Mihir and Roberts, Adam and Raffel, Colin},
+  journal = {Transactions of the Association for Computational Linguistics},
+  volume  = {10},
+  pages   = {291--306},
+  year    = {2022}
+}
+
+@misc{tiktoken,
+  title        = {tiktoken: A Fast {BPE} Tokeniser for Use with {OpenAI}'s Models},
+  author       = {{OpenAI}},
+  year         = {2023},
+  howpublished = {\url{https://github.com/openai/tiktoken}},
+  note         = {Accessed October 2026}
+}
+
+@misc{unicode15,
+  title        = {The {U}nicode Standard, Version 15.0},
+  author       = {{The Unicode Consortium}},
+  year         = {2022},
+  howpublished = {\url{https://www.unicode.org/versions/Unicode15.0.0/}},
+  note         = {Chapter 12: South and Central Asia-I (Devanagari)}
+}
+
+% ---------------------------------------------------------------- Models
+@inproceedings{vaswani2017attention,
+  title     = {Attention Is All You Need},
+  author    = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N. and Kaiser, {\L}ukasz and Polosukhin, Illia},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {30},
+  year      = {2017}
+}
+
+@article{gu2023mamba,
+  title   = {Mamba: Linear-Time Sequence Modeling with Selective State Spaces},
+  author  = {Gu, Albert and Dao, Tri},
+  journal = {arXiv preprint arXiv:2312.00752},
+  year    = {2023}
+}
+
+@inproceedings{dao2024transformers,
+  title     = {Transformers are {SSM}s: Generalized Models and Efficient Algorithms Through Structured State Space Duality},
+  author    = {Dao, Tri and Gu, Albert},
+  booktitle = {Proceedings of the 41st International Conference on Machine Learning},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {235},
+  year      = {2024}
+}
+
+@article{su2024roformer,
+  title   = {{RoFormer}: Enhanced Transformer with Rotary Position Embedding},
+  author  = {Su, Jianlin and Ahmed, Murtadha and Lu, Yu and Pan, Shengfeng and Bo, Wen and Liu, Yunfeng},
+  journal = {Neurocomputing},
+  volume  = {568},
+  pages   = {127063},
+  year    = {2024}
+}
+
+@inproceedings{zhang2019rmsnorm,
+  title     = {Root Mean Square Layer Normalization},
+  author    = {Zhang, Biao and Sennrich, Rico},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {32},
+  year      = {2019}
+}
+
+@article{shazeer2020glu,
+  title   = {{GLU} Variants Improve Transformer},
+  author  = {Shazeer, Noam},
+  journal = {arXiv preprint arXiv:2002.05202},
+  year    = {2020}
+}
+
+@inproceedings{loshchilov2019adamw,
+  title     = {Decoupled Weight Decay Regularization},
+  author    = {Loshchilov, Ilya and Hutter, Frank},
+  booktitle = {International Conference on Learning Representations},
+  year      = {2019}
+}
+
+@article{gemma3,
+  title   = {Gemma 3 Technical Report},
+  author  = {{Gemma Team}},
+  journal = {arXiv preprint arXiv:2503.19786},
+  year    = {2025}
+}
+
+@article{grattafiori2024llama3,
+  title   = {The {L}lama 3 Herd of Models},
+  author  = {Grattafiori, Aaron and others},
+  journal = {arXiv preprint arXiv:2407.21783},
+  year    = {2024}
+}
+
+@article{qwen25,
+  title   = {Qwen2.5 Technical Report},
+  author  = {{Qwen Team}},
+  journal = {arXiv preprint arXiv:2412.15115},
+  year    = {2024}
+}
+
+% ---------------------------------------------------------------- Evaluation and decoding
+@article{gao2020pile,
+  title   = {The {P}ile: An 800{GB} Dataset of Diverse Text for Language Modeling},
+  author  = {Gao, Leo and Biderman, Stella and Black, Sid and Golding, Laurence and Hoppe, Travis and Foster, Charles and Phang, Jason and He, Horace and Thite, Anish and Nabeshima, Noa and Presser, Shawn and Leahy, Connor},
+  journal = {arXiv preprint arXiv:2101.00027},
+  year    = {2020}
+}
+
+@inproceedings{koehn-2004-statistical,
+  title     = {Statistical Significance Tests for Machine Translation Evaluation},
+  author    = {Koehn, Philipp},
+  booktitle = {Proceedings of the 2004 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2004},
+  address   = {Barcelona, Spain},
+  publisher = {Association for Computational Linguistics},
+  pages     = {388--395}
+}
+
+@inproceedings{holtzman2020curious,
+  title     = {The Curious Case of Neural Text Degeneration},
+  author    = {Holtzman, Ari and Buys, Jan and Du, Li and Forbes, Maxwell and Choi, Yejin},
+  booktitle = {International Conference on Learning Representations},
+  year      = {2020}
+}
+
+@inproceedings{geng-etal-2023-grammar,
+  title     = {Grammar-Constrained Decoding for Structured {NLP} Tasks without Finetuning},
+  author    = {Geng, Saibo and Josifoski, Martin and Peyrard, Maxime and West, Robert},
+  booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2023},
+  address   = {Singapore},
+  publisher = {Association for Computational Linguistics}
+}
+
+@article{willard2023efficient,
+  title   = {Efficient Guided Generation for Large Language Models},
+  author  = {Willard, Brandon T. and Louf, R{\'e}mi},
+  journal = {arXiv preprint arXiv:2307.09702},
+  year    = {2023}
+}
